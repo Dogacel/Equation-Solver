@@ -62,7 +62,7 @@ print("Newton's method:")
 # You must put 0's if there is not ax^z ex:
 # ax^3 + bx + c = [a , 0 , b , c]
 
-my_arr = [1,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4]
+my_arr = [1,4,6,6,6,4,1]
 overflow = 10
 print(derivative(my_arr))
 
