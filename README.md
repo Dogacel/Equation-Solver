@@ -1,7 +1,7 @@
 # Equation-Solver
 ### Python 3.4
 
-##A basic demonstration of solving polynomial equations with python using Newton's Method.
+## A basic demonstration of solving polynomial equations with python using Newton's Method.
  Run test.py to see how it works !
 
 # Overview
@@ -19,7 +19,7 @@ class polyroots:
         self.precision = precision #Number of fractional digits
         self.timeout=False #Set true if timelimit exceeded
 ```
-#####This function is not the best way to get derivative. But its fast and usable in this project.
+##### This function may not be the best way to get derivative. But it's enough for this project.
 
 ```python
 def derivative(self, array):
@@ -33,7 +33,7 @@ def derivative(self, array):
         return new_arr #return
 ```
 
-#####This method basically replaces the indeterminate in the polynomial with the variable "x"
+##### This method basically replaces the indeterminate in the polynomial with the variable "x"
 
 
 ```python
@@ -48,7 +48,7 @@ def derivative(self, array):
 
 ```
 
-####Polynomial division
+#### Polynomial division implementation
 
 ```python
 def divide_arr(self,big, small):
@@ -93,7 +93,7 @@ for more info [click here](https://en.wikipedia.org/wiki/Newton%27s_method).
 ```
 
 
-###Secure way to solve:
+### Solve implementation for finding roots of a polynomial:
 
 ```python
 
